@@ -1,126 +1,122 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, 
+html,
 body {
-
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background: #333;
-    overflow: hidden;
-    text-shadow: 2px 2px black;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background: #333;
+  overflow: hidden;
+  text-shadow: 2px 2px black;
 }
-
 
 .landing {
-    position: relative;
-    background-image: url(action-blur-bulb-dark-355904\ \(1\).jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  position: relative;
+  background-image: url(action-blur-bulb-dark-355904\\(1\).jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .landing-inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.2);
-    text-align: center;
-    padding-top: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-top: 25px;
 }
 
 .landing h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .landing p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .countdown {
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .countdown div {
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin: 5px;
-    opacity: 0.9;
-    background-color: #333;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px;
+  opacity: 0.9;
+  background-color: #333;
 }
 
 .countdown div:first-child {
-
 }
 
 .countdown span {
-    display: block;
-    font-size: 25px;
+  display: block;
+  font-size: 25px;
 }
 
 @media (max-width: 650px) {
-    .landing img {
-        width: 30%;
-    }
+  .landing img {
+    width: 30%;
+  }
 
-    .landing h1 {
-        font-size: 40px;
-    }
+  .landing h1 {
+    font-size: 40px;
+  }
 
-    .countdown {
-        font-size: 30px;
-        flex-direction: column;
-    }
+  .countdown {
+    font-size: 30px;
+    flex-direction: column;
+  }
 
-    .countdown div {
-        display: none;
-    }
+  .countdown div {
+    display: none;
+  }
 
-    .countdown div:first-child {
-        display: block;
-        width: 80%;
-        padding: 10px;
-    }
+  .countdown div:first-child {
+    display: block;
+    width: 80%;
+    padding: 10px;
+  }
 
-    .countdown div:nth-of-type(2) {
-        display: block;
-        width: 80%;
-        padding: 10px;
-    }
+  .countdown div:nth-of-type(2) {
+    display: block;
+    width: 80%;
+    padding: 10px;
+  }
 
-    .countdown div:nth-of-type(3) {
-        display: block;
-        width: 80%;
-        padding: 10px;
-    }
+  .countdown div:nth-of-type(3) {
+    display: block;
+    width: 80%;
+    padding: 10px;
+  }
 }
 
 @media (max-height: 600px) {
-    img {
-        width: 20%;
-    }
+  img {
+    width: 20%;
+  }
 
-    p {
-        display: none;
-    }
+  p {
+    display: none;
+  }
 }
 
 @media (max-height: 400px) {
-
-    img {
+  img {
     padding: 30px;
-}
+  }
 
-    h1 {
-        display: none;
-    }
+  h1 {
+    display: none;
+  }
 }
